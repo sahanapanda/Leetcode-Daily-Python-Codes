@@ -11,6 +11,6 @@ class Solution(object):
         
         # 3. Find the absolute difference
         diff = abs(hour_angle - minute_angle)
-        
+
         # 4. Return the smaller angle
         return min(diff, 360 - diff)
