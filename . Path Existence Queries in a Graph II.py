@@ -65,7 +65,7 @@ class Solution(object):
                 ans.append(-1)
                 continue
             
-            # If they are already within maxDiff, it takes exactly 1 step
+            # If they are already within maxDiff, it takes exactly 1 step 
             if vals[p_v] - vals[p_u] <= maxDiff:
                 ans.append(1)
                 continue
