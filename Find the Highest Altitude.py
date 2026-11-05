@@ -13,4 +13,3 @@ class Solution(object):
                 max_altitude = current_altitude
                 
         return max_altitude
-        
